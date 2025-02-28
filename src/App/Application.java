@@ -37,7 +37,7 @@ public class Application {
 		System.out.println("Order List: ");
 		System.out.println("----------------------------------------------------------------------------------------------------");
 		for(Order order: orders) {
-			System.out.println("User: " +  order.getUser().getName());
+			System.out.println("User: " +  order.getUser().getName() + " - " + order.getUser().getId());
 			System.out.println("Food: " +  order.getFood().getName());
 			System.out.println("Food: " +  order.getDate());
 			System.out.println("----------------------------------------------------------------------------------------------------");
